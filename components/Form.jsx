@@ -55,7 +55,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
             disabled={submitting}
             className="px-5 py-2 text-sm bg-primary-orange rounded-full text-white focus:outline-none hover:bg-opacity-80 transition-all"
           >
-            {submitting ? `${type}ing...` : type}
+            {submitting ? `$Creating...` : type}
           </button>
         </div>
       </form>
